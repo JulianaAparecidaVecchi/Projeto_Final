@@ -73,12 +73,12 @@ def login_cadastrar():
     botao_cadastro = ctk.CTkButton(master=frame_cadastro, text='CADASTRAR-SE', font=('Arial',15), width=300, fg_color=cor_botao, hover_color=cor_botao_hover , command=login_cadastrar)
     botao_cadastro.grid(column=1, row=6, padx=20, pady=40)
     #Botão voltar
-    botao_cadastro = ctk.CTkButton(master=frame_cadastro, text='VOLTAR', font=('Arial',15), width=150, fg_color=cor_botao, hover_color=cor_botao_hover , command=voltar_login)
-    botao_cadastro.grid(column=1, row=7, pady=10)
+    botao_voltar = ctk.CTkButton(master=frame_cadastro, text='VOLTAR', font=('Arial',15), width=150, fg_color=cor_botao, hover_color=cor_botao_hover , command=voltar_login)
+    botao_voltar.grid(column=1, row=7, pady=10)
     
 
 def voltar_login():
     frame_cadastro.grid_forget()
-    janela_login()
+    frame_login.grid(column=2, row=1, padx=20, pady=20)
 
 janela_login()
