@@ -1,0 +1,48 @@
+Iniciais,Volkswagen Gol,180,80,12
+Iniciais,Chevrolet Celta,170,78,13
+Iniciais,Chevrolet Corsa,175,82,11
+Iniciais,Fiat Palio,165,76,14
+Iniciais,Volkswagen Fox,170,79,13
+Iniciais,Fiat Siena,160,75,15
+Iniciais,Ford Fiesta,180,83,12
+Iniciais,Ford Ka,170,77,13
+Iniciais,HB20,175,80,12
+Iniciais,Chevrolet Onix,180,85,11
+Iniciais,Peugeot 208,170,82,13
+Iniciais,Renault Sandero,165,79,14
+Iniciais,Honda Fit,160,76,15
+Iniciais,Volkswagen Fusca,155,74,15
+Iniciais,Toyota Yaris,170,78,13
+Iniciais,Ford Belina,150,72,15
+Iniciais,Nissan March,165,77,14
+Iniciais,Renault Clio,160,75,15
+Iniciais,Fiat Punto,175,80,12
+Medianos,Volkswagen Jetta,220,140,15
+Medianos,Honda Civic,210,135,15
+Medianos,Toyota Corolla,215,138,15
+Medianos,Mitsubishi Lancer,225,145,25
+Medianos,Nissan Sentra,210,133,20
+Medianos,Hyundai Elantra,215,137,8
+Medianos,Audi A4,230,150,25
+Medianos,Bmw 320i,240,160,25
+Medianos,Chevrolet Cruze,220,140,15
+Medianos,Subaru Impreza,225,145,20
+Semi-profissional,Chevrolet Camaro amarelo,250,180,40
+Semi-profissional,Ford Mustang,260,190,40
+Semi-profissional,Nissan 370Z,245,175,25
+Semi-profissional,Subaru WRX,240,170,30
+Semi-profissional,Mazda MX-5 Miata,235,165,40
+Semi-profissional,Toyota Supra,250,180,30
+Semi-profissional,BMW M3,255,185,35
+Semi-profissional,Audi RS3,260,190,40
+Semi-profissional,Mercedes-Benz C63 AMG,270,200,30
+Semi-profissional,Porsche 911,280,210,35
+Profissional,Bugatti Chiron,420,1500,55
+Profissional,Bugatti Veyron,410,1200,40
+Profissional,Porsche 718 Spyder RS,310,500,75
+Profissional,Ferrari LaFerrari,350,950,60
+Profissional,Ferrari 812 GTS,340,900,45
+Profissional,Porsche 911 GT3 RS,320,520,50
+Profissional,McLaren Senna,330,800,45
+Profissional,Tesla Model S,320,1000,60
+Ultra Raro,Fiat Uno com Escada,650,750,90
