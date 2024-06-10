@@ -1,6 +1,8 @@
 import tkinter as tk
 from tkinter import messagebox
 import customtkinter as ctk
+import menu_principal
+import json
 
 cor_botao = "#EA2828"
 cor_botao_hover = '#FC3441'
@@ -36,7 +38,7 @@ def janela_login():
     login = ctk.CTk()
     login.title('Login Satoshi Garage')
 
-    img = tk.PhotoImage(file='./img/logosf.png')
+    img = tk.PhotoImage(file='./img/icones/logosf.png')
     label_img = tk.Label(master=login, image=img)
     label_img.image = img
     label_img.grid(column=1, row=1, padx=20, pady=20)
@@ -62,6 +64,20 @@ def janela_login():
     botao_cadastro.grid(column=1, row=6, padx=20, pady=20)
 
     login.mainloop()
+
+def login_usuario():
+    nome = input_nome.get()
+    senha = input_senha.get()
+    dados = carregar_dados()
+
+    for jogador in dados:
+        if jogador.get("nome") == nome and jogador.get("senha") == senha:
+            messagebox.showinfo("Sucesso", "Login realizado com sucesso")
+            login.destroy()  # Fecha a janela de login
+            menu_principal.janela_jogo_inicio()  # Abre a janela do jogo principal
+            return
+    messagebox.showerror("Erro", "Nome do usuário ou senha incorretos.")
+
 
 def login_cadastrar():
     global input_nome_cadastro, input_senha_cadastro, frame_cadastro
@@ -89,7 +105,33 @@ def login_cadastrar():
     
     botao_voltar = ctk.CTkButton(master=frame_cadastro, text='VOLTAR', font=('Arial', 15), width=150, fg_color=cor_botao, hover_color=cor_botao_hover, command=voltar_login)
     botao_voltar.grid(column=1, row=7, pady=10)
+
+def realizar_cadastro():
+    nome = input_nome_cadastro.get()
+    senha = input_senha_cadastro.get()
+
+    if not nome or not senha:
+        messagebox.showerror("Erro", "Por favor, preencha todos os campos")
+        return
     
+    dados = carregar_dados()
+
+    # Verifica se o nome de usuário já existe
+    for jogador in dados:
+        if jogador['nome'] == nome:
+            messagebox.showerror("erro", "Usuário escrito já existe")
+            return
+
+    novo_jogador = {
+        "nome": nome,
+        "senha": senha,
+        "carros_na_garagem": [],
+        "dinheiro_no_banco": 0,
+    }
+
+    salvar_dados(novo_jogador)
+    messagebox.showinfo("Sucesso", "Usuário cadastrado com sucesso")
+    voltar_login()
 
 def voltar_login():
     frame_cadastro.grid_forget()
