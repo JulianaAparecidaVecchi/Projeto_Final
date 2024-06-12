@@ -1,3 +1,3 @@
 import login 
 
-login.janela_login
+login.janela_login()
