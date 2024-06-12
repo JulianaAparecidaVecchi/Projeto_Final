@@ -13,7 +13,6 @@ def escrever_json(dados, arquivo):
     with open(arquivo, 'w') as f:
         json.dump(dados, f, indent=4)
 
-
 def salvar_dados(jogador, filename):
     try:
         with open(filename, 'r') as arquivo:
@@ -32,7 +31,6 @@ def salvar_dados(jogador, filename):
     with open(filename, 'w') as arquivo:
         json.dump(dados, arquivo, indent=4)
 
-
 def incrementar_primeiro_login(nome_usuario, filename):
     dados = carregar_dados(filename)
     for jogador in dados:
@@ -42,7 +40,6 @@ def incrementar_primeiro_login(nome_usuario, filename):
             escrever_json(dados, filename)  # Escreve os dados atualizados de volta no arquivo JSON
             return True  # Indica que o contador foi incrementado com sucesso
     return False  # Indica que não foi encontrado nenhum jogador com o nome de usuário
-
 
 def login_usuario():
 
@@ -67,15 +64,12 @@ def login_usuario():
     if not login_sucesso:
         messagebox.showerror("Erro", "Nome do usuário ou senha incorretos.")
 
-
-
 def carregar_dados(filename):
     try:
         with open(filename, 'r') as arquivo:
             return json.load(arquivo)
     except FileNotFoundError:
         return []
-
 
 def janela_login():
     global frame_login, login_janela, input_nome, input_senha
@@ -112,7 +106,6 @@ def janela_login():
 
     login_janela.mainloop()
 
-
 def login_cadastrar():
     global input_nome_cadastro, input_senha_cadastro, frame_cadastro
 
@@ -146,7 +139,6 @@ def login_cadastrar():
                                   fg_color=cor_botao, hover_color=cor_botao_hover, command=voltar_login)
     botao_voltar.grid(column=1, row=7, pady=10)
 
-
 def realizar_cadastro():
     nome = input_nome_cadastro.get()
     senha = input_senha_cadastro.get()
@@ -174,7 +166,6 @@ def realizar_cadastro():
     salvar_dados(novo_jogador, dados_arquivo)  
     messagebox.showinfo("Sucesso", "Usuário cadastrado com sucesso")
     voltar_login()
-
 
 def voltar_login():
     frame_cadastro.grid_forget()

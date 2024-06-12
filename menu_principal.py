@@ -53,7 +53,6 @@ def converter_img_redimensionada(endereço, largura, altura):
     img_ctk = ImageTk.PhotoImage(img_redimensionada)
     return img_ctk
 
-
 def botao_menu(master, row, column, img, acao):
     menu_botao = ctk.CTkButton(master=master, image=img, command=acao, fg_color=cor_1, hover_color=cor_0, text='', height=100)  # Ajustando a altura dos botões
     menu_botao.image = img

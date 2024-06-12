@@ -46,7 +46,6 @@ Profissional,Porsche 911 GT3 RS,320,520,50
 Profissional,McLaren Senna,330,800,45
 Profissional,Tesla Model S,320,1000,60
 Ultra Raro,Fiat Uno com Escada,650,750,90
-=======
 Iniciais,Volkswagen_Gol,180,80,12
 Iniciais,Chevrolet_Celta,170,78,13
 Iniciais,Chevrolet_Corsa,175,82,11
@@ -96,4 +95,3 @@ Profissional,McLaren_Senna,330,800,45
 Profissional,Tesla_Model_S,320,1000,60
 Profissional,McLaren_P1,300,600,55
 Ultra_Raro,Fiat_Uno_Com_Escada,650,750,90
->>>>>>> 859824838b4c95f18a0bf014e36f50b9d3e8b4ed
