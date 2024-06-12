@@ -1,1 +1,89 @@
-[{"nome": "j", "senha": "j", "carros_na_garagem": [["Iniciais", "Chevrolet Corsa", "175", "82", "11", "./img/iniciais/chevroletcorsa.png"]], "dinheiro_no_banco": 0, "primeiro_login": 1}, {"nome": "bb", "senha": "bb", "carros_na_garagem": [["Iniciais", "Chevrolet Corsa", "175", "82", "11", "./img/iniciais/chevroletcorsa.png"]], "dinheiro_no_banco": 0, "primeiro_login": 1}, {"nome": "rt", "senha": "rt", "carros_na_garagem": [["Iniciais", "Chevrolet Celta", "170", "78", "13", "./img/iniciais/chevroletcelta.png"]], "dinheiro_no_banco": 0, "primeiro_login": 1}, {"nome": "ty", "senha": "y", "carros_na_garagem": [["Iniciais", "Chevrolet Corsa", "175", "82", "11", "./img/iniciais/chevroletcorsa.png"]], "dinheiro_no_banco": 0, "primeiro_login": 1}]
+[
+    {
+        "nome": "j",
+        "senha": "j",
+        "carros_na_garagem": [
+            [
+                "Iniciais",
+                "Chevrolet Corsa",
+                "175",
+                "82",
+                "11",
+                "./img/iniciais/chevroletcorsa.png"
+            ]
+        ],
+        "dinheiro_no_banco": 0,
+        "primeiro_login": 1
+    },
+    {
+        "nome": "bb",
+        "senha": "bb",
+        "carros_na_garagem": [
+            [
+                "Iniciais",
+                "Chevrolet Corsa",
+                "175",
+                "82",
+                "11",
+                "./img/iniciais/chevroletcorsa.png"
+            ]
+        ],
+        "dinheiro_no_banco": 0,
+        "primeiro_login": 1
+    },
+    {
+        "nome": "rt",
+        "senha": "rt",
+        "carros_na_garagem": [
+            [
+                "Iniciais",
+                "Chevrolet Celta",
+                "170",
+                "78",
+                "13",
+                "./img/iniciais/chevroletcelta.png"
+            ]
+        ],
+        "dinheiro_no_banco": 0,
+        "primeiro_login": 1
+    },
+    {
+        "nome": "ty",
+        "senha": "y",
+        "carros_na_garagem": [
+            [
+                "Iniciais",
+                "Chevrolet Corsa",
+                "175",
+                "82",
+                "11",
+                "./img/iniciais/chevroletcorsa.png"
+            ]
+        ],
+        "dinheiro_no_banco": 0,
+        "primeiro_login": 1
+    },
+    {
+        "nome": "tr",
+        "senha": "tr",
+        "carros_na_garagem": [
+            [
+                "Iniciais",
+                "Renault Sandero",
+                "165",
+                "79",
+                "14",
+                "./img/iniciais/renaultsandero.png"
+            ]
+        ],
+        "dinheiro_no_banco": 0,
+        "primeiro_login": 1
+    },
+    {
+        "nome": "ed",
+        "senha": "ed",
+        "carros_na_garagem": [],
+        "dinheiro_no_banco": 0,
+        "primeiro_login": 1
+    }
+]
