@@ -1,25 +1,25 @@
-Iniciais,Volkswagen Gol,180,80,12,./img/iniciais/volkswagengol.png
-Iniciais,Chevrolet Celta,170,78,13,./img/iniciais/chevroletcelta.png
-Iniciais,Chevrolet Corsa,175,82,11,./img/iniciais/chevroletcorsa.png
-Iniciais,Fiat Palio,165,76,14,./img/iniciais/fiatpalio.png
-Iniciais,Volkswagen Fox,170,79,13,./img/iniciais/volkswagenfox.png
-Iniciais,Fiat Siena,160,75,15,./img/iniciais/fiatsiena.png
-Iniciais,Ford Fiesta,180,83,12,./img/iniciais/fordfiesta.png
-Iniciais,Ford Ka,170,77,13,./img/iniciais/fordka.png
-Iniciais,HB20,175,80,12,./img/iniciais/hb20.png
-Iniciais,Chevrolet Onix,180,85,11,./img/iniciais/chevroletonix.png
-Iniciais,Peugeot 208,170,82,13,./img/iniciais/peugeot208.png
-Iniciais,Renault Sandero,165,79,14,./img/iniciais/renaultsandero.png
-Iniciais,Honda Fit,160,76,15,./img/iniciais/fiatsiena.png
-Iniciais,Volkswagen Fusca,155,74,15,./img/iniciais/volkswagenfusca.png
-Iniciais,Toyota Yaris,170,78,13,./img/iniciais/toyotayaris.png
-Iniciais,Ford Belina,150,72,15,./img/iniciais/fordbelina.png
-Iniciais,Nissan March,165,77,14,./img/iniciais/nissanmarch.png
-Iniciais,Renault Clio,160,75,15,./img/iniciais/renaultclio.png
-Iniciais,Fiat Punto,175,80,12,./img/iniciais/fiatpunto.png
+Iniciais,Volkswagen Gol,180,80,12,./img/iniciais/Volkswagen_Gol.png
+Iniciais,Chevrolet Celta,170,78,13,./img/iniciais/Chevrolet_Celta.png
+Iniciais,Chevrolet Corsa,175,82,11,./img/iniciais/Chevrolet_Corsa.png
+Iniciais,Fiat Palio,165,76,14,./img/iniciais/Fiat_Palio.png
+Iniciais,Volkswagen Fox,170,79,13,./img/iniciais/Volkswagen_Fox.png
+Iniciais,Fiat Siena,160,75,15,./img/iniciais/Fiat_Siena.png
+Iniciais,Ford Fiesta,180,83,12,./img/iniciais/Ford_Fiesta.png
+Iniciais,Ford Ka,170,77,13,./img/iniciais/Ford_Ka.png
+Iniciais,HB20,175,80,12,./img/iniciais/Hyundai_HB20.png
+Iniciais,Chevrolet Onix,180,85,11,./img/iniciais/Chevrolet_Onix.png
+Iniciais,Peugeot 208,170,82,13,./img/iniciais/Peugeot_208.png
+Iniciais,Renault Sandero,165,79,14,./img/iniciais/Renault_Sandero.png
+Iniciais,Honda Fit,160,76,15,./img/iniciais/Fiat_Siena.png
+Iniciais,Volkswagen Fusca,155,74,15,./img/iniciais/Volkswagen_Fusca.png
+Iniciais,Toyota Yaris,170,78,13,./img/iniciais/Foyota_Yaris.png
+Iniciais,Ford Belina,150,72,15,./img/iniciais/Ford_belina.png
+Iniciais,Nissan March,165,77,14,./img/iniciais/Nissan_March.png
+Iniciais,Renault Clio,160,75,15,./img/iniciais/Renault_Clio.png
+Iniciais,Fiat Punto,175,80,12,./img/iniciais/Fiat_Punto.png
 Medianos,Volkswagen Jetta,220,140,15,.img/medianos/Volkswagen_Jetta.png
 Medianos,Honda Civic,210,135,15,.img/medianos/Honda_Civic.png
-Medianos,Toyota Corolla,215,138,15,.img/medianos/Toyota Corolla.png
+Medianos,Toyota Corolla,215,138,15,.img/medianos/Toyota_Corolla.png
 Medianos,Mitsubishi Lancer,225,145,25,.img/medianos/Mitsubishi_Lancer.png
 Medianos,Nissan Sentra,210,133,20,.img/medianos/Nissan_Sentra.png
 Medianos,Hyundai Elantra,215,137,8,.img/medianos/Hyundai_Elantra.png
