@@ -17,6 +17,7 @@ Iniciais,Ford Belina,150,72,15,./img/iniciais/Ford_belina.png
 Iniciais,Nissan March,165,77,14,./img/iniciais/Nissan_March.png
 Iniciais,Renault Clio,160,75,15,./img/iniciais/Renault_Clio.png
 Iniciais,Fiat Punto,175,80,12,./img/iniciais/Fiat_Punto.png
+########
 Medianos,Volkswagen Jetta,220,140,15,.img/medianos/Volkswagen_Jetta.png
 Medianos,Honda Civic,210,135,15,.img/medianos/Honda_Civic.png
 Medianos,Toyota Corolla,215,138,15,.img/medianos/Toyota_Corolla.png
@@ -27,6 +28,7 @@ Medianos,Audi A4,230,150,25,.img/medianos/Audi_A4.png
 Medianos,Bmw 320i,240,160,25,.img/medianos/Bmw_320i.png
 Medianos,Chevrolet Cruze,220,140,15,.img/medianos/Chevrolet_Cruze.png
 Medianos,Subaru Impreza,225,145,20,.img/medianos/Subaru_Impreza.png
+##########
 Semi-profissional,Chevrolet Camaro amarelo,250,180,40,.img/semiprofissional/Chevrolet_Camaro.png
 Semi-profissional,Ford Mustang,260,190,40,.img/semiprofissional/Ford_Mustang.png
 Semi-profissional,Nissan 370Z,245,175,25,.img/semiprofissional/Nissan_370Z.png
@@ -37,6 +39,7 @@ Semi-profissional,BMW M3,255,185,35,.img/semiprofissional/BMW_M3.png
 Semi-profissional,Audi RS3,260,190,40,.img/semiprofissional/Audi_RS3.png
 Semi-profissional,Mercedes-Benz C63 AMG,270,200,30,.img/semiprofissional/Mercedes-Benz_C63_AMG.png
 Semi-profissional,Porsche 911,280,210,35,.img/semiprofissional/Porsche_911.png
+########
 Profissional,Bugatti Chiron,420,1500,55,.img/profissionais/Bugatti_Chiron.png
 Profissional,Bugatti Veyron,410,1200,40,.img/profissionais/Bugatti_Veyron.png
 Profissional,Porsche 718 Spyder RS,310,500,75,.img/profissionais/Porsche_718_Spyder_RS.png
@@ -45,6 +48,9 @@ Profissional,Ferrari 812 GTS,340,900,45,.img/profissionais/Ferrari_812_GTS.png
 Profissional,Porsche 911 GT3 RS,320,520,50,.img/profissionais/Porsche_911_GT3_RS.png
 Profissional,McLaren Senna,330,800,45,.img/profissionais/McLaren_Senna.png
 Profissional,Tesla Model S,320,1000,60,.img/profissionais/Tesla_Model_S.png
+Profissional,McLaren P1,330,975,60,.img/profissionais/McLaren_P1.png
+Profissional,Hennessey Venom F5,330,950,55,.img/profissionais/Hennessey_Venom_F5.png
+#########
 Ultra Raro,Fiat Uno com Escada,650,750,90,.img/ultrararo/Fiat_Uno_com_Escada.png
 
 
