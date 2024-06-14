@@ -1,0 +1,4 @@
+Iniciais,Volkswagen Gol,180,80,12,'./img/iniciais/volkswagengol.png'
+Iniciais,Chevrolet Celta,170,78,13,'./img/iniciais/chevroletcelta.png'
+Iniciais,Chevrolet Corsa,175,82,11,'./img/iniciais/chevroletcorsa.png'
+Iniciais,Fiat Palio,165,76,14,'./img/iniciais/fiatpalio.png'

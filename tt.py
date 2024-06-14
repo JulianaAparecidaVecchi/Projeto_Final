@@ -1,48 +1,61 @@
-import random
-import tkinter as tk
 import customtkinter as ctk
-import menu_principal
-from PIL import Image, ImageTk
-import random
 
-largura_desejada = 200
-altura_desejada = 200
+def criar_janela():
+    # Criar a janela principal
+    janela = ctk.CTk()
+    janela.title("Informações do Carro")
 
-def redimensionar_imagem(endereço, largura, altura):
-    # Carregar a imagem usando PIL
-    img_pil = Image.open(endereço)
-    # Redimensionar a imagem para as dimensões desejadas
-    img_redimensionada = img_pil.resize((largura, altura))
-    return img_redimensionada
+    # Definir o tamanho da janela
+    janela.geometry("400x300")
 
-def card_carro(janela, lista):
-    card = ctk.CTkFrame(master=janela)
-    imgr=menu_principal.converter_img(lista[5])
-    img = ctk.CTkLabel(master=card, image=imgr, text='')
-    img.grid(row=1, column=1)
-    linha_nome = ctk.CTkLabel(master=card, text=lista[1])
-    linha_nome.grid(row=2, column=1)
-    linha_velocidade = ctk.CTkLabel(master=card, text=f'Velocidade: {lista[2]}')
-    linha_velocidade.grid(row=3, column=1)
-    linha_potencia = ctk.CTkLabel(master=card, text=f'Potência: {lista[3]}')
-    linha_potencia.grid(row=4, column=1)
-    linha_aceleracao = ctk.CTkLabel(master=card, text=f'Aceleração: {lista[4]}')
-    linha_aceleracao.grid(row=5, column=1)
-    card.grid(row=1, column=1)
+    # Função para ler as informações do carro de um arquivo TXT
+    def ler_info_carro():
+        try:
+            with open('teste.txt', 'r') as arquivo:
+                info_carro = [ arquivo.readlines()]
+        except FileNotFoundError:
+            info_carro = ["Arquivo não encontrado"]
+        return info_carro
 
-def sortear_carro_inicial(arquivo, num1, num2):
-    with open(arquivo, 'r') as arquivo:
-        carros = arquivo.readlines()  
-    numero_sorteado = random.randint(num1, num2)
-    carro_sorteado = carros[numero_sorteado].strip().split(',')  # Convertendo a linha em uma lista
-    return carro_sorteado
+    # Função para criar e mostrar as informações do carro
+    def mostrar_informacoes_carro(frame):
+        # Obter as informações do carro
+        info_carro = ler_info_carro()
 
-# Sorteando um carro inicial
-carro_sorteado = sortear_carro_inicial('carros.txt', 0, 18)
-print(carro_sorteado)
+        # Limpar o frame antes de adicionar as informações
+        for widget in frame.winfo_children():
+            widget.destroy()
 
-# Criando a janela e exibindo o carro sorteado
-teste = ctk.CTk()
-teste.title('JANELA TESTE')
-card_carro(teste, carro_sorteado)
-teste.mainloop()
+        # Exibir as informações do carro no frame
+        for i, linha in enumerate(info_carro):
+            label = ctk.CTkLabel(frame, text=linha)
+            label.grid(row=i, column=0, sticky="w")
+
+    # Criar o frame para as informações do carro
+    frame_carro = ctk.CTkFrame(janela)
+    frame_carro.pack(pady=20)
+
+    # Mostrar as informações do carro inicialmente
+    mostrar_informacoes_carro(frame_carro)
+
+    # Função para mostrar o próximo carro
+    def proximo_carro():
+        mostrar_informacoes_carro(frame_carro)
+
+    # Botão para mostrar o próximo carro
+    botao_proximo = ctk.CTkButton(janela, text="Próximo", command=proximo_carro)
+    botao_proximo.pack(side="right", padx=10)
+
+    # Função para mostrar o carro anterior
+    def carro_anterior():
+        mostrar_informacoes_carro(frame_carro)
+
+    # Botão para mostrar o carro anterior
+    botao_anterior = ctk.CTkButton(janela, text="Anterior", command=carro_anterior)
+    botao_anterior.pack(side="left", padx=10)
+
+    # Exibir a janela
+    janela.mainloop()
+
+# Criar e exibir a janela
+criar_janela()
